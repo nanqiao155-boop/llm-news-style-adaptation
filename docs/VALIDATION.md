@@ -70,3 +70,12 @@ Current release status: GITHUB_CLI_REQUIRED.
 Official GitHub CLI installation and authentication are complete. The user approved
 GitHub username/noreply identity, configured only in this repository. Final pre-commit
 checks: 19 tests passed; structural validation PASS; NO_CREDIBLE_SECRET.
+
+## Publication completed
+
+Public repository created and main pushed normally, without force. Remote commit and
+124-file tree matched the verified local repository; README, six neutral figures and
+aggregate results are present. Data contains only its README and synthetic fixture.
+No weights, private env, brand logo, archive, defense files or internal review document
+were published. No LICENSE was added. Topics were set. Working-tree verification is
+performed after the final documentation sync. Earlier blockers above are historical.
