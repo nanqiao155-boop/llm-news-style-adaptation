@@ -1,0 +1,14 @@
+{
+  "python": "3.12.4",
+  "packages": {
+    "gradio": "6.27.0",
+    "openai": "1.109.1",
+    "python-dotenv": "1.2.3",
+    "pytest": "9.1.1",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2",
+    "beautifulsoup4": "4.15.0",
+    "PyYAML": "6.0.1"
+  },
+  "scope": "Direct package versions used for public smoke checks; not a complete training lockfile."
+}

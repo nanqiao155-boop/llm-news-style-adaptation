@@ -1,0 +1,31 @@
+{
+  "schema_version": "lora-experiment-protocol-v2.1.0",
+  "protocol": "LoRA Experiment Protocol V2.1",
+  "status": "frozen_by_user_approval",
+  "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "unresolved_pending_cloud_verification",
+  "framework": "LLaMA-Factory",
+  "framework_version": "0.9.4",
+  "primary_method": "standard_bf16_lora",
+  "fallback_method": "uniform_qlora_before_E01_only_if_24gb_smoke_fails",
+  "formal_gpu": "single NVIDIA GPU with 24GB class VRAM",
+  "fixed": {
+    "finetuning_type": "lora",
+    "lora_target": "all",
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "seed": 42,
+    "per_device_train_batch_size": 1,
+    "num_train_epochs": 3,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.05,
+    "train_on_prompt": false,
+    "packing": false,
+    "early_stopping": false,
+    "checkpoint_selection": "minimum Validation eval loss"
+  },
+  "cutoff_rule": "2048 when formal SFT_v2 Train P95 <= 2048; otherwise 4096",
+  "test_authorized": false,
+  "formal_training_started": false,
+  "formal_model_inference_performed": false
+}

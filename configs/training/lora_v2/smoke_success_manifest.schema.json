@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LoRA V2 smoke outcome",
+  "type": "object",
+  "required": ["status", "forward_succeeded", "backward_succeeded", "loss_finite", "grad_norm_finite", "bf16_enabled", "memory_acceptable", "checkpoint_saved", "adapter_reloaded", "inference_succeeded", "output_format_valid", "test_accessed"],
+  "properties": {
+    "status": {"enum": ["passed", "failed", "blocked_pending_training_method_decision"]},
+    "forward_succeeded": {"type": "boolean"},
+    "backward_succeeded": {"type": "boolean"},
+    "loss_finite": {"type": "boolean"},
+    "grad_norm_finite": {"type": "boolean"},
+    "bf16_enabled": {"type": "boolean"},
+    "memory_acceptable": {"type": "boolean"},
+    "checkpoint_saved": {"type": "boolean"},
+    "adapter_reloaded": {"type": "boolean"},
+    "inference_succeeded": {"type": "boolean"},
+    "output_format_valid": {"type": "boolean"},
+    "test_accessed": {"const": false}
+  }
+}

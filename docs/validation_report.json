@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "secret_status": "NO_CREDIBLE_SECRET",
+  "checks": {
+    "python_compile": 52,
+    "json": 28,
+    "jsonl": 1,
+    "csv": 9,
+    "yaml": 9,
+    "markdown_links": 24,
+    "imports": 39
+  },
+  "large_files": 0,
+  "findings_without_values": [],
+  "scope": "All staging text, structured files, Python and file names; only newly generated PNG figures are binary. Original private files were excluded without reading credentials. No remote secret scanner or upload used.",
+  "limitations": [
+    "Regex and literal scans do not prove absence of every possible secret.",
+    "Historical lightweight reference imports and full model/API execution are excluded from runnable checks."
+  ]
+}

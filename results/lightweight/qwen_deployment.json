@@ -1,0 +1,29 @@
+{
+  "q4": {
+    "base_size_bytes": 2497280736,
+    "base_size_gib": 2.325773924589157,
+    "peak_vram_mib": 3535,
+    "peak_ram_working_set_mib": 5947.562,
+    "writer_tokens_per_second_median": 62.43220262255405,
+    "writer_latency_seconds_median": 5.739428599830717,
+    "load_time_seconds": 3.9325151001103222
+  },
+  "q6": {
+    "base_size_bytes": 3306261216,
+    "base_size_gib": 3.0791957080364227,
+    "peak_vram_mib": 4305,
+    "peak_ram_working_set_mib": 6509.508,
+    "writer_tokens_per_second_median": 51.643440772211264,
+    "writer_latency_seconds_median": 7.170494849793613,
+    "load_time_seconds": 2.380900299642235
+  },
+  "q8": {
+    "base_size_bytes": 4280405216,
+    "base_size_gib": 3.9864380061626434,
+    "peak_vram_mib": 5235,
+    "peak_ram_working_set_mib": 6659.371,
+    "writer_tokens_per_second_median": 43.38454443693769,
+    "writer_latency_seconds_median": 8.224982249783352,
+    "load_time_seconds": 3.9589852998033166
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LoRA V2 experiment manifest",
+  "type": "object",
+  "required": ["experiment_id", "run_id", "dataset_version", "dataset_manifest_reference", "dataset_checksum_reference", "model_name", "model_revision", "framework", "framework_version", "training_enabled", "finetuning_type", "training_method", "precision", "cutoff_len", "chat_template", "train_on_prompt", "packing", "rank", "alpha", "dropout", "lora_target", "learning_rate", "scheduler", "warmup_ratio", "micro_batch", "gradient_accumulation", "effective_batch", "epoch", "seed", "status", "parent", "reused_run", "best_checkpoint", "best_eval_loss", "training_time", "peak_gpu_memory", "BLEU", "ROUGE-1", "ROUGE-2", "ROUGE-L", "git_commit", "created_at"],
+  "properties": {
+    "experiment_id": {"pattern": "^E0[0-8]$", "type": "string"},
+    "run_id": {"type": ["string", "null"]},
+    "dataset_version": {"enum": ["sft_v1.0.0", "sft_v2.0.0"]},
+    "training_enabled": {"type": "boolean"},
+    "finetuning_type": {"enum": ["none", "lora"]},
+    "training_method": {"enum": ["base_validation", "standard_bf16_lora", "uniform_qlora"]},
+    "precision": {"enum": ["bf16", "base_model"]},
+    "train_on_prompt": {"type": "boolean"},
+    "packing": {"type": "boolean"},
+    "alpha": {"type": ["integer", "null"]},
+    "dropout": {"type": ["number", "null"]},
+    "seed": {"const": 42},
+    "status": {"type": "string"}
+  }
+}

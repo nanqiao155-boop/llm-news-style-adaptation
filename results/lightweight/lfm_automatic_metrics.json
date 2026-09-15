@@ -1,0 +1,47 @@
+{
+  "lfm_f16": {
+    "BLEU-4": 0.06293642423662615,
+    "ROUGE-1": 0.47148105938289,
+    "ROUGE-2": 0.29070733794359366,
+    "ROUGE-L": 0.270992598512086,
+    "manifest": {
+      "implementation": "cm_style_zh_char_ascii_word_v1",
+      "implementation_version": "1.0.0",
+      "tokenization": "each CJK character; lower-case contiguous ASCII alphanumeric word; punctuation/space removed",
+      "bleu": "corpus modified precision BLEU-4, uniform weights, add-one smoothing",
+      "rouge": "macro-average F1; multiset overlap for ROUGE-1/2; LCS for ROUGE-L",
+      "python": "3.12.4",
+      "count": 24
+    }
+  },
+  "lfm_ptq": {
+    "BLEU-4": 0.04317252270781527,
+    "ROUGE-1": 0.4369473115236913,
+    "ROUGE-2": 0.2709817820788741,
+    "ROUGE-L": 0.26324781860121,
+    "manifest": {
+      "implementation": "cm_style_zh_char_ascii_word_v1",
+      "implementation_version": "1.0.0",
+      "tokenization": "each CJK character; lower-case contiguous ASCII alphanumeric word; punctuation/space removed",
+      "bleu": "corpus modified precision BLEU-4, uniform weights, add-one smoothing",
+      "rouge": "macro-average F1; multiset overlap for ROUGE-1/2; LCS for ROUGE-L",
+      "python": "3.12.4",
+      "count": 24
+    }
+  },
+  "lfm_qad": {
+    "BLEU-4": 0.05160224919758306,
+    "ROUGE-1": 0.46395899387525646,
+    "ROUGE-2": 0.2834218557734126,
+    "ROUGE-L": 0.2720252327955193,
+    "manifest": {
+      "implementation": "cm_style_zh_char_ascii_word_v1",
+      "implementation_version": "1.0.0",
+      "tokenization": "each CJK character; lower-case contiguous ASCII alphanumeric word; punctuation/space removed",
+      "bleu": "corpus modified precision BLEU-4, uniform weights, add-one smoothing",
+      "rouge": "macro-average F1; multiset overlap for ROUGE-1/2; LCS for ROUGE-L",
+      "python": "3.12.4",
+      "count": 24
+    }
+  }
+}

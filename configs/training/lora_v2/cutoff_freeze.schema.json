@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Formal LoRA V2 cutoff freeze",
+  "type": "object",
+  "required": ["status", "dataset_version", "dataset_checksums_sha256", "model_identifier", "model_revision", "tokenizer_identifier", "tokenizer_revision", "chat_template", "statistics_artifact_sha256", "train_total_token_p95", "selected_cutoff_len", "selection_rule", "frozen_at"],
+  "properties": {
+    "status": {"const": "frozen"},
+    "dataset_version": {"const": "sft_v2.0.0"},
+    "model_revision": {"pattern": "^[0-9a-f]{40}$", "type": "string"},
+    "tokenizer_revision": {"pattern": "^[0-9a-f]{40}$", "type": "string"},
+    "chat_template": {"const": "qwen3_nothink"},
+    "selected_cutoff_len": {"enum": [2048, 4096]}
+  }
+}

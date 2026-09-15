@@ -1,0 +1,185 @@
+{
+  "sample_count": 24,
+  "candidate_count": 48,
+  "independent_freeze_verified": true,
+  "stages": {
+    "Draft": {
+      "n": 24,
+      "publishable_count": 0,
+      "publishable_rate": 0.0,
+      "severity_counts": {
+        "BLOCKING": 6,
+        "MAJOR": 18
+      },
+      "issue_totals": {
+        "unsupported_claim_count": 181,
+        "missing_key_fact_count": 142,
+        "factual_error_count": 29,
+        "entity_relation_error_count": 11,
+        "number_date_error_count": 15
+      },
+      "issue_means": {
+        "unsupported_claim_count": 7.541666666666667,
+        "missing_key_fact_count": 5.916666666666667,
+        "factual_error_count": 1.2083333333333333,
+        "entity_relation_error_count": 0.4583333333333333,
+        "number_date_error_count": 0.625
+      },
+      "affected_sample_counts": {
+        "unsupported_claim_count": 24,
+        "missing_key_fact_count": 24,
+        "factual_error_count": 17,
+        "entity_relation_error_count": 7,
+        "number_date_error_count": 12
+      },
+      "repetition_issue_count": 1,
+      "anchor_counts": {
+        "retained_anchors": 309,
+        "missing_anchors": 188,
+        "new_exact_anchors": 23
+      },
+      "anchor_counts_by_type": {
+        "retained_anchors": {
+          "number": 82,
+          "organization": 56,
+          "person": 12,
+          "place": 29,
+          "product_business": 79,
+          "date_year": 32,
+          "amount": 6,
+          "unclassified_named_span": 6,
+          "percentage": 7
+        },
+        "missing_anchors": {
+          "date_year": 37,
+          "number": 77,
+          "organization": 13,
+          "percentage": 7,
+          "product_business": 30,
+          "amount": 7,
+          "place": 13,
+          "unclassified_named_span": 3,
+          "person": 1
+        },
+        "new_exact_anchors": {
+          "amount": 3,
+          "number": 12,
+          "unclassified_named_span": 2,
+          "product_business": 2,
+          "date_year": 4
+        }
+      }
+    },
+    "Final": {
+      "n": 24,
+      "publishable_count": 15,
+      "publishable_rate": 0.625,
+      "severity_counts": {
+        "MAJOR": 9,
+        "MINOR": 15
+      },
+      "issue_totals": {
+        "unsupported_claim_count": 18,
+        "missing_key_fact_count": 2,
+        "factual_error_count": 0,
+        "entity_relation_error_count": 0,
+        "number_date_error_count": 0
+      },
+      "issue_means": {
+        "unsupported_claim_count": 0.75,
+        "missing_key_fact_count": 0.08333333333333333,
+        "factual_error_count": 0.0,
+        "entity_relation_error_count": 0.0,
+        "number_date_error_count": 0.0
+      },
+      "affected_sample_counts": {
+        "unsupported_claim_count": 7,
+        "missing_key_fact_count": 2,
+        "factual_error_count": 0,
+        "entity_relation_error_count": 0,
+        "number_date_error_count": 0
+      },
+      "repetition_issue_count": 1,
+      "anchor_counts": {
+        "retained_anchors": 494,
+        "missing_anchors": 3,
+        "new_exact_anchors": 7
+      },
+      "anchor_counts_by_type": {
+        "retained_anchors": {
+          "date_year": 67,
+          "number": 159,
+          "organization": 68,
+          "percentage": 14,
+          "person": 13,
+          "place": 42,
+          "product_business": 109,
+          "amount": 13,
+          "unclassified_named_span": 9
+        },
+        "missing_anchors": {
+          "date_year": 2,
+          "organization": 1
+        },
+        "new_exact_anchors": {
+          "product_business": 2,
+          "date_year": 2,
+          "number": 2,
+          "place": 1
+        }
+      }
+    }
+  },
+  "counting_note": "Primary unsupported, missing fact IDs and contradictory factual errors are distinct. Entity/relation and number/date are overlapping factual-error subtypes, not additive totals. Anchors are unique normalized type/value per candidate.",
+  "transition_counts": {
+    "IMPROVED": 19,
+    "UNCHANGED": 0,
+    "MIXED": 5,
+    "WORSENED": 0
+  },
+  "transition_event_counts": {
+    "unsupported_removed": 184,
+    "missing_fact_restored": 141,
+    "factual_error_corrected": 29,
+    "new_unsupported_introduced": 12
+  },
+  "new_final_semantic_problems": 12,
+  "new_final_factual_error_subtypes": {
+    "entity_relation": 0,
+    "number_date": 0
+  },
+  "anchor_erratum_v1_1": {
+    "stage_counts": {
+      "Draft": {
+        "retained_anchors": 309,
+        "missing_anchors": 188,
+        "new_exact_anchors": 22
+      },
+      "Final": {
+        "retained_anchors": 494,
+        "missing_anchors": 3,
+        "new_exact_anchors": 6
+      }
+    },
+    "file": "anchor_audit_corrected_v1_1.jsonl",
+    "frozen_original_preserved": true
+  },
+  "transition_sensitivity": {
+    "primary_new_unsupported": 12,
+    "alternative_new_unsupported": 13,
+    "primary_transitions": {
+      "IMPROVED": 19,
+      "MIXED": 5,
+      "UNCHANGED": 0,
+      "WORSENED": 0
+    },
+    "alternative_transitions": {
+      "IMPROVED": 18,
+      "MIXED": 6,
+      "UNCHANGED": 0,
+      "WORSENED": 0
+    },
+    "independent_verdicts_unchanged": true
+  },
+  "paired_counting_caveat": "配对事件按全文重新识别和细分命题，并非冻结问题ID的一一对应账本；例如184项无依据移除事件不能解释为181项Draft冻结问题的子集，也不能与18项Final问题作代数核销。两类计数分别报告，主语义汇总始终使用冻结的181→18。"
+}

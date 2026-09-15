@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Qwen3 cloud model and tokenizer verification",
+  "type": "object",
+  "required": ["status", "model_identifier", "model_revision", "tokenizer_identifier", "tokenizer_revision", "local_model_path", "config_sha256", "tokenizer_config_sha256", "chat_template", "render_probe_sha256", "model_inference_performed"],
+  "properties": {
+    "status": {"const": "verified"},
+    "model_identifier": {"const": "Qwen/Qwen3-4B-Instruct-2507"},
+    "model_revision": {"pattern": "^[0-9a-f]{40}$", "type": "string"},
+    "tokenizer_identifier": {"const": "Qwen/Qwen3-4B-Instruct-2507"},
+    "tokenizer_revision": {"pattern": "^[0-9a-f]{40}$", "type": "string"},
+    "chat_template": {"const": "qwen3_nothink"},
+    "model_inference_performed": {"const": false}
+  }
+}

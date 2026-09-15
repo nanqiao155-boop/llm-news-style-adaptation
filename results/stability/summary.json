@@ -1,0 +1,25 @@
+{
+  "validation_count": 234,
+  "original_severe": 57,
+  "repaired_severe": 1,
+  "checkpoint": "checkpoint-117",
+  "adapter_strength": 0.5,
+  "fixed_subset_count": 24,
+  "checkpoint_comparison_severe": {
+    "checkpoint-117": 1,
+    "checkpoint-234": 5
+  },
+  "strength_subset_severe": {
+    "0.25": 1,
+    "0.50": 0,
+    "0.75": 0,
+    "1.00": 1
+  },
+  "source": "diagnostic_aggregates.csv, projected from the current audited repetition summary; fixed-24 and full-234 counts remain separate.",
+  "strength_subset_repeat_ge3": {
+    "0.25": 1,
+    "0.50": 0,
+    "0.75": 2,
+    "1.00": 3
+  }
+}

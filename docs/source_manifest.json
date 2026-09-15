@@ -1,0 +1,682 @@
+[
+  {
+    "path": "src/dataset/sft_v2_complete_build.py",
+    "source_root": "project",
+    "source_path": "src/dataset/sft_v2_complete_build.py",
+    "source_sha256": "62c2ab13ce127c958e91db333ed57b86d45511601f31afe641210a577c60f3ff",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "06339702add9eecb9f8f06bf63ed7a1299f155da29703b3d532d8e60a2aa3d6a"
+  },
+  {
+    "path": "src/dataset/sft_schema.py",
+    "source_root": "project",
+    "source_path": "src/dataset/sft_schema.py",
+    "source_sha256": "19fc334ec023f380a9d0a127a4de189cbc1767024264aa6bda53b4f9ea03eefa",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "ea1bcbdb40a30d1115b36d0b1b19239521ad6519a4ba0932dbc05d3fe7db6db8"
+  },
+  {
+    "path": "src/dataset/sft_prompt_renderer.py",
+    "source_root": "project",
+    "source_path": "src/dataset/sft_prompt_renderer.py",
+    "source_sha256": "0c88a20ed718eba56739182e847d6922f58dfb6e0d8e017d2f3a79d347e476a6",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "d7ee34913838530b8cd32842d03aca9869cd0f83fa48c69d7eafcd5a7fea45ad"
+  },
+  {
+    "path": "src/dataset/event_grouping.py",
+    "source_root": "project",
+    "source_path": "src/dataset/event_grouping.py",
+    "source_sha256": "8d505f300f9fb09fe18e7643a94c84a4f83d716314b5057b085e005bbb960344",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "0e706a70f9e72123ab8c52bac3a6f378d895d5767824679e80e108c14470b12e"
+  },
+  {
+    "path": "src/crawler/groupnews_parser.py",
+    "source_root": "project",
+    "source_path": "src/crawler/groupnews_parser.py",
+    "source_sha256": "652be1a05e368ff9bcdca8c11fce9b975f14bca30930a9dd3cf96c9e068f6b71",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "c27632dc1cc7234e910309af134f6b07672c5bae4ba89e7104bd4392181c51a6"
+  },
+  {
+    "path": "src/crawler/models.py",
+    "source_root": "project",
+    "source_path": "src/crawler/models.py",
+    "source_sha256": "0f3610389d32e078494f213be3287b081b622eb66a3fd878055114312389a0ae",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "ce423d79f42a54f41d2f835febb5afb8593d567934c2fb2f5ef7b9480219f953"
+  },
+  {
+    "path": "src/crawler/groupnews_client.py",
+    "source_root": "project",
+    "source_path": "src/crawler/groupnews_client.py",
+    "source_sha256": "722c5d41e4e80ad1717e6c630e2a08b8040030f3b43946174b5e54f504526ac2",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "a01b250d64147b9cd19db2631e44691fa3b136079a15a6dcfb62770859c4032e"
+  },
+  {
+    "path": "src/crawler/groupnews_urls.py",
+    "source_root": "project",
+    "source_path": "src/crawler/groupnews_urls.py",
+    "source_sha256": "363c0e0357f35d1b75a8ce81e66be86f24fad06da11a580f4323c5b82be26fe6",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "31a538a105fdb34d779904550cc71a1ebc7474ab6f5e89eac2a0e361aeb1670a"
+  },
+  {
+    "path": "src/crawler/duplicate_detection.py",
+    "source_root": "project",
+    "source_path": "src/crawler/duplicate_detection.py",
+    "source_sha256": "7dbc75ac923b723eb28ad158e8a558ec08117e3b514e16b38da6e69ae0d6ed6d",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "03b84b0617601caa5527f495d1681caf055904ab041d4702029447ef0fdb718c"
+  },
+  {
+    "path": "src/training/lora_v2.py",
+    "source_root": "project",
+    "source_path": "src/training/lora_v2.py",
+    "source_sha256": "6725d58e3a6a4b4f4dfb37dcba0eb565dd17f3c92d9ff39eb10d863e0db0bd2e",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "ed3639855e4223cd421923477a1aba4f6e133163026d9617ea821bb7f065bed9"
+  },
+  {
+    "path": "src/training/sft_dataset_access.py",
+    "source_root": "project",
+    "source_path": "src/training/sft_dataset_access.py",
+    "source_sha256": "c6ef30deb8e475dc7e9c762bb9ea4a8cbe1cdc16132fe998d47662a09dac40a8",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "2d55d946497655532fc46815f7b50c06cb4dc2e105ac5b0aafeae2f9a96a0b7e"
+  },
+  {
+    "path": "scripts/lora_v2.py",
+    "source_root": "project",
+    "source_path": "scripts/lora_v2.py",
+    "source_sha256": "ae2cdab9e981531d02d429fc354d089749190e577838a4c510ca2f219daac734",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "9ce2b75b334eea0fb03ba78cf74ce33d3785e4abbdccf10f0a3537e24bdddd39"
+  },
+  {
+    "path": "scripts/diagnostics/auto_lora_recovery.py",
+    "source_root": "project",
+    "source_path": "scripts/diagnostics/auto_lora_recovery.py",
+    "source_sha256": "6a867bc7790cb5019067bcdbae71a8f0304eb7c1df8ce2b6721214ec9e6c77b4",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "b6d3a6753cb4c4662b99769dac6a5e0ebc1b495fd3205526002c218220768715"
+  },
+  {
+    "path": "scripts/lora_v2_final_judge.py",
+    "source_root": "project",
+    "source_path": "scripts/lora_v2_final_judge.py",
+    "source_sha256": "cfb692ff11afef014d3870b9965bd3b48d708eed3318b59d4a0d746adf9f060a",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "2d5686a119a150ebaba334df3a9a60c8c0505f441319a7a6c9eed4001bd3acb5"
+  },
+  {
+    "path": "scripts/lora_v2_production_decode.py",
+    "source_root": "project",
+    "source_path": "scripts/lora_v2_production_decode.py",
+    "source_sha256": "263bede4f4766a3268ccff47c4336afbebc07171bc7132ce8270e3ce8c121d94",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "5468b469d2ac029074944d8409b345b79f0d2a9b86f88d27a4e694b95a3fdb3d"
+  },
+  {
+    "path": "scripts/diagnostics/closed_loop_editorial_eval.py",
+    "source_root": "project",
+    "source_path": "scripts/diagnostics/closed_loop_editorial_eval.py",
+    "source_sha256": "7acdc4ad0cb96cf2bd3c5c27d22ff9cb5cbf39ce899ac64697d74a33b0c716e0",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "0e785e7858df88a46aac773920875dfaaaf8f510733f0333aa247674a005463e"
+  },
+  {
+    "path": "scripts/build_task011d_complete_sft_v2.py",
+    "source_root": "project",
+    "source_path": "scripts/build_task011d_complete_sft_v2.py",
+    "source_sha256": "6c0bbec3abeef810acd9dfa182dba3b3409e31e161f26254e2ffc8fbf20ae03a",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "465c3a50e3779fd626115bda930ecc9d270014230c258747170ab75221a71c1a"
+  },
+  {
+    "path": "demo/__init__.py",
+    "source_root": "project",
+    "source_path": "demo/__init__.py",
+    "source_sha256": "e34b16c54a52cff916e06b2572df700e1fc36ee1608e5a6f3d96e305724d0400",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "0feee046710a6df7fcd33714a03b35dd70903f7277d913be21cc935838ceab6a"
+  },
+  {
+    "path": "demo/agents.py",
+    "source_root": "project",
+    "source_path": "demo/agents.py",
+    "source_sha256": "6f2e32419e1c1e008bdd72c8b429ff8d33a82761bc7869f2106df836fd0737ce",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "12d7e15e7ad61cf60e33673dfe5ee75a3db70d8e9e43edcc3a07370e20a33b30"
+  },
+  {
+    "path": "demo/api_client.py",
+    "source_root": "project",
+    "source_path": "demo/api_client.py",
+    "source_sha256": "44e3e89538877c7463990fcceec2832b4ab68590023cd7d15e318616aee1062a",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "8174996df03d290d513d9f5049565b2436452d7f01e28821b75a501c5b0e4f99"
+  },
+  {
+    "path": "demo/config.py",
+    "source_root": "project",
+    "source_path": "demo/config.py",
+    "source_sha256": "a43f70c46ed173176c46fc0a487de04dcf11a37f6f5f3d2e6f518dd7d4c692a5",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "7aba4eed6fa3896e65e6900d86772ac3474fa92e1675a338ca4d5bc9a9d8deaa"
+  },
+  {
+    "path": "demo/schemas.py",
+    "source_root": "project",
+    "source_path": "demo/schemas.py",
+    "source_sha256": "e61729af20b462b3d5654937da2482cc94abb6d2e4e7aa0dd776ecfa03de6c08",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "63b20fdfb622e0ec5ad33dc007c3589e47b3ff6106827eff200f7e81a0e93743"
+  },
+  {
+    "path": "demo/workflow.py",
+    "source_root": "project",
+    "source_path": "demo/workflow.py",
+    "source_sha256": "f36a859f029daf5fb3d8ddbfe1695bdab971153b1a9a92dd4f56ab3a0e3f3b18",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "4f97c43ceea58490210cac5006f1c22498d56ff2845a0a1ea8bb39cafc99d7a9"
+  },
+  {
+    "path": "demo/scoring.py",
+    "source_root": "project",
+    "source_path": "demo/scoring.py",
+    "source_sha256": "6cec0b38f7db9142d72aca30d36015d48fe572ecb6fcd65ff75aeefe3839c233",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "e7b72545ed514ab5c93889349f98b61041708e81bdfcd947c3cb1e2a76bbe234"
+  },
+  {
+    "path": "demo/lora_parser.py",
+    "source_root": "project",
+    "source_path": "demo/lora_parser.py",
+    "source_sha256": "249360c5c05c2eef8ac90b47e069fb897ff62ecf140c99062bdaa8081d9c1569",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "bcd0b260b8b87c1daf73e65de1a938b292428aa14f5d338402fcfe5c07f7e7a5"
+  },
+  {
+    "path": "tests/test_scoring.py",
+    "source_root": "project",
+    "source_path": "demo/tests/test_scoring.py",
+    "source_sha256": "1f1b30e29d11dc0c94b3fe20894bd95d66ce349e983138f825add72ea4fbb576",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "7457079a2f68ed67bb0815dacc2463146790492dea88da971db551100c2980b6"
+  },
+  {
+    "path": "configs/training/lora_v2/common.yaml",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/common.yaml",
+    "source_sha256": "99a8172c0214831652d88a0b5444b5bc3dfe96e19b906494754eb8540f88e6bd",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "6c2623cc2d582c86d320ae4eb91fd962fd8b488e83b2c877fa3d181a0da39216"
+  },
+  {
+    "path": "configs/training/lora_v2/cutoff_freeze.schema.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/cutoff_freeze.schema.json",
+    "source_sha256": "c71cf89acdc1e273a2f26afe6121a63a16f7e88e8a4de2f3bf8f67ce5764ce5a",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "bed2324174a6af6172bbfd9840ed0986332ff984c72308ac17c1ea507adff021"
+  },
+  {
+    "path": "configs/training/lora_v2/cutoff_freeze.template.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/cutoff_freeze.template.json",
+    "source_sha256": "3cd3019aa689ad4e85da9ddc6229ce9b0850fb32e180ac1ae23299aae6cac0b7",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "23beade359047b9b34fa1e87b22a55e2572c5b52b8f6717618db1753c82043ee"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments.csv",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments.csv",
+    "source_sha256": "c65372f9bf4c98477aab5f4876bed282e79500146ca55b872abbb1620bdcbf31",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "4b4dbaa3f6ceb8049c531a5a25a1eda28b3e3f576833a4787cea34a0af6cfb53"
+  },
+  {
+    "path": "configs/training/lora_v2/experiment_manifest.schema.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiment_manifest.schema.json",
+    "source_sha256": "970bcd53f306924aa3a5ed2dfcb309b2e532b09b9e5f7ddc31bb2978f754e5bd",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "6b9e154f235806318afc305416c80d0d1daa1d0b92c4deb350eab49d0aa58a47"
+  },
+  {
+    "path": "configs/training/lora_v2/final_test_authorization.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/final_test_authorization.json",
+    "source_sha256": "8bfb07186c86b8e35a53ec14e326a6d2378bd943a6881e7ba61827d488968aa2",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "2553121d8daed1676871274c6879291cf59e6c7db77f5406aa876a48a61aba92"
+  },
+  {
+    "path": "configs/training/lora_v2/model_verification.schema.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/model_verification.schema.json",
+    "source_sha256": "4eb3954b4e0e3997c2e80c79375771cf5d31d5963a135fa59ece38797971c9e7",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "297a39f8041249e8c46ef37cbd0735540f8eba6fb1322fe92813725bc55ad59e"
+  },
+  {
+    "path": "configs/training/lora_v2/protocol.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/protocol.json",
+    "source_sha256": "ec2e09a097d6a9ceca00f5fdad5c36c8d38feebebb497eb1f41476e942f1a94d",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "3b5c7a740d19c5c98220eda68a61f852db9dfe5115cba113af281fc23d058f02"
+  },
+  {
+    "path": "configs/training/lora_v2/selection_state.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/selection_state.json",
+    "source_sha256": "8a72175163203eeb74c8727c77a31ffcd51072fe042651aa8fbabd769f38cb9d",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "76464ebd40f44f8a4a38914c1c229c938c21ffa72949f9127fbe1fbbafa537b7"
+  },
+  {
+    "path": "configs/training/lora_v2/smoke.template.yaml",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/smoke.template.yaml",
+    "source_sha256": "3aa5d988fa54bef9f548936123b808041d05be137e2295fe1e7fd8e278725ec3",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "91c9e68011302b3d680e0f47d33660b3e0337f79f045b723caf32c3641bdcb79"
+  },
+  {
+    "path": "configs/training/lora_v2/smoke_success_manifest.schema.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/smoke_success_manifest.schema.json",
+    "source_sha256": "0b0aed79106206d304c3b604c5187ce2b23f1598fc2576fcb25ab272a5db8502",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "40c39db9fef20a948d4c984f21378699a2ffd7e6c4dc77b55a8a39194036223b"
+  },
+  {
+    "path": "configs/training/lora_v2/token_statistics_status.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/token_statistics_status.json",
+    "source_sha256": "cc57e2b60c82be8f7cf3ede6065ac5d6b9ad353141d86b1b2fadb0686998526c",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "8e828378dde5a3819f7d65f70aeaf414374d1df7205f6739c5b8eb8783860b78"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E00.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E00.json",
+    "source_sha256": "51ab837fb069abc8d4297476395da64b4aa0dfc3f19204396b955d8b4d5cb203",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "816ff03cfcacb3ff1b0778e5103917302f8a0aa71e5060222d2ab5743501bea0"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E01.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E01.json",
+    "source_sha256": "b65c1bb37d3a736efbc8cac6b293a11d59287b742a376203013c013287859db5",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "4d26d03360ab12a6eca4bb2c7558b8349f079706dec70412d1f4de82a80dcaa6"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E02.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E02.json",
+    "source_sha256": "506493da07083f8e0a460fb484413a647aa69342b6478b4978622845d4d32364",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "908100f143c942ec62fa1bd6c876e53f7df8af7833d30a4ee01cd1090ad300a9"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E03.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E03.json",
+    "source_sha256": "7d303096b204bc49f6c959aa04303286008e6648881b4d3b95052855a71171f0",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "644b194cdf6b973d26adc11558e3b8eac663e83c766f171b850c32bab4d997b3"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E04.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E04.json",
+    "source_sha256": "bc702ae03c427f80860523d4f9f5a1245fd454970c7e75bcd2780a7394e930f9",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "d8cd6794d20236e0f31acce7ca9d1b592900c75ea75fa7b9a746838ee4aaa621"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E05.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E05.json",
+    "source_sha256": "45414fe07260dd25bc5cbd4e065c4901258871189f910271de616948cbbaa865",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "4bee96b6d065fa802136f5d0ba15e679e63e1c0938aa71054a0235bbb2f9aca7"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E06.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E06.json",
+    "source_sha256": "ba56f2f6c0524325358dd760635fe9f2d9963581ea9998d51eb617f762bae968",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "91fcbf91a8760ea2cc8f1ebfdc32e8906f62c9aba8fa19b1aff0a3726c680206"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E07.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E07.json",
+    "source_sha256": "acbeb541eb15d1a11c7135ae7b803027b801796fceb4b065366a746c705e42e4",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "606bd358bc25ebf43c2ffe430bdb98e8af5c5d99ea7e3a0d7e2d8bb922f0a25b"
+  },
+  {
+    "path": "configs/training/lora_v2/experiments/E08.json",
+    "source_root": "project",
+    "source_path": "configs/training/lora_v2/experiments/E08.json",
+    "source_sha256": "08d0a00eebcf52106437efb716b543d08e32a6c642cb66457fea7da4bda929a1",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "bb54477f9cf9fc9aa667bd84cfff82026124e8c4d3789d6b187df92f0821b1a2"
+  },
+  {
+    "path": "results/lora/lr.csv",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/lr/lr_data_summary.csv",
+    "source_sha256": "30c9f16022f6b0cab49414810fdb0e96ebc0cea9a11762a7b0e952c4ab21cce3",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "8318f5a47da33b4871e583f227e2698801d89a0a7ea879b4781f69f11536461d"
+  },
+  {
+    "path": "configs/reproduction/E01_lr5e-5_run3.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/lr/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E01/E01_lr5e-5_run3/llamafactory.yaml",
+    "source_sha256": "6fd7829bc22551bf2472d9379f4e212af85c516fc76f0e905010ae45db2f716c",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "47647e4defd219a3133c79a36f462a85519749ea394cdd91ab4d1997b5c592c1"
+  },
+  {
+    "path": "configs/reproduction/E02_lr1e-4_run1.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/lr/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E02/E02_lr1e-4_run1/llamafactory.yaml",
+    "source_sha256": "fd06b8ec3bfec5e753cb12a79fabbedd644bada4f1677b55b4e00fafab97d9ee",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "d183e8903615649f76832e5589f59b9a5af538f6508b8c40fc7fe987c7cae672"
+  },
+  {
+    "path": "configs/reproduction/E03_lr2e-4_run1.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/lr/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E03/E03_lr2e-4_run1/llamafactory.yaml",
+    "source_sha256": "4623106b594bac2ed562bdcc156dfbdf68ddb4dede8a72ff63ae9c940785a573",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "8aa98c02190e61c10a3d27b43675467096877a47fd00749988f2a4fe80ca73c6"
+  },
+  {
+    "path": "results/lora/rank.csv",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/rank/rank_data_summary.csv",
+    "source_sha256": "89c8a5b423b00d594177e7359c507c8f8e9d0380f48905be652cb354e3cd2ee8",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "71564e5acba2f4f429bf77b46250d86cc60dbdd6384c82b71fc0783e45b20ad7"
+  },
+  {
+    "path": "configs/reproduction/E04_rank8_run1.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/rank/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E04/E04_rank8_run1/llamafactory.yaml",
+    "source_sha256": "95001e995d2b86eb08553f51d5905d88f700b5aae1aa0facf351e8fa6ef852c1",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "6947f7a621c1c199f40ec53a42c716df9fb4bfc5bac459e363cc40ddfcf0abce"
+  },
+  {
+    "path": "configs/reproduction/E05_rank32_run1.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/rank/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E05/E05_rank32_run1/llamafactory.yaml",
+    "source_sha256": "14171c5f133cdf73babd09ecb927946cef63cc61371d10ec11933f238b835bf4",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "2da6efd2fc4f423414dfac64618292893c284e06420bab68981d35c07b366657"
+  },
+  {
+    "path": "results/lora/batch.csv",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/batch/batch_data_summary.csv",
+    "source_sha256": "bffe3e9dd9360483f96eb912413681ecb3f4ad815e82e8be8b31c86132659aa8",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "f8aa34b5dc0fddffbe72974c8ec43ba8943594111852d91a817d6e91eef35737"
+  },
+  {
+    "path": "configs/reproduction/E06_batch4_run1.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/batch/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E06/E06_batch4_run1/llamafactory.yaml",
+    "source_sha256": "9694929426cd5e74174d8b0588a47c25c0d55607026f2afa104fc1dcfda0b15f",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "1281da7a601e3d4ee3f9171e7388c42bca0fd108668da1fb64f0721673a853f6"
+  },
+  {
+    "path": "configs/reproduction/E07_batch16_run1.yaml",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/batch/source_archive/china_mobile_lora_final_delivery_20260829/results/formal_experiments/E07/E07_batch16_run1/llamafactory.yaml",
+    "source_sha256": "3b18fb7b6408274864299151a91f7c378a4ea1ce6fd2cf48c13c0ce9148a6fc5",
+    "transformation": "Formal runtime parameters retained; dataset and output paths rebased to public private/interim folders.",
+    "staging_sha256": "aea4ce87a59e01d740e5742bb7a7e8f4fa50f6c8169a81e03f842cc264c85252"
+  },
+  {
+    "path": "results/final_system/final_test.csv",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/final_test/final_metrics_summary.csv",
+    "source_sha256": "2263ffb5c338c6b0a071cb9598fca2427ee52bd6709c0779a0ece98168087026",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "7e5d333fbc94aacaa6e3a7c81c80bfd1ca9b8a14ae6a181a1853d4414467ff87"
+  },
+  {
+    "path": "results/lightweight/qwen_ppt_same_source_closed_loop.csv",
+    "source_root": "lightweight_lab",
+    "source_path": "same_source_system_q4_q6_q8_20260907/round2_judge/results/ppt_same_source_closed_loop.csv",
+    "source_sha256": "e8f822f054c3662b035885668fc437bbbbe53bd80d8ca0b53cb1ce7e8331cd4d",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "b45ce29f7926a3ae0acff920a5f6a3842c149d2e5f841e790e22351506b78062"
+  },
+  {
+    "path": "results/lightweight/qwen_ppt_same_source_system_tradeoff.csv",
+    "source_root": "lightweight_lab",
+    "source_path": "same_source_system_q4_q6_q8_20260907/round2_judge/results/ppt_same_source_system_tradeoff.csv",
+    "source_sha256": "953d1075624dd8b28fdca3516a5b60b7accce602742a210a4e38a6c8155a03fc",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "e4f611f7ff4afddaa90500b343ee460e6d2a2720fc317cbe0d5dd28eb892a463"
+  },
+  {
+    "path": "results/lightweight/qwen_draft_aggregate_3way.json",
+    "source_root": "lightweight_lab",
+    "source_path": "same_source_system_q4_q6_q8_20260907/round2_judge/results/draft_aggregate_3way.json",
+    "source_sha256": "28a97f8125a93157d53b4104659f29a52b2d646f78dcec33e160df219ab34269",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "4f649c628ea063055f2a1b7c88b05c6eef2c12c3b50e284acf816f1a0cdfb561"
+  },
+  {
+    "path": "results/lightweight/qwen_final_aggregate_3way.json",
+    "source_root": "lightweight_lab",
+    "source_path": "same_source_system_q4_q6_q8_20260907/round2_judge/results/final_aggregate_3way.json",
+    "source_sha256": "8e1d29cf9aa07f9e9b37ef0d83375491a68ca4b7a9911e0abca07999ed7770e0",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "7b80d57a01b1d5d829425ba627346eb66b6960e0b3c30c3250d1218148b6818c"
+  },
+  {
+    "path": "results/lightweight/lfm_ppt_summary.csv",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_architecture_qad_20260907/ppt_summary.csv",
+    "source_sha256": "88accd9010888cb6b05a2cd43662d4df21d7f2f3f2c74c5bd2a1f3f07d13b1ff",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "5a1b417b9618210b4d6b273e21af0e2c928f1f0984230185b2a84ec90ba632d1"
+  },
+  {
+    "path": "results/lightweight/lfm_automatic_metrics.json",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_architecture_qad_20260907/automatic_metrics.json",
+    "source_sha256": "91d89adce16e48f69cd1fd4f44651ddd742d8473f356813e0a3490bb7679475f",
+    "transformation": "text copy; public filesystem rebasing if needed",
+    "staging_sha256": "a34b78cc6775388e125649036cb94b5dcdcf4979cd3bae9b3d4f2eb2e2cda0bc"
+  },
+  {
+    "path": "results/lightweight/lfm_independent_audit.json",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_closed_loop_independent_audit_20260907/aggregate_independent_audit.json",
+    "source_sha256": "25f464f14fe38fd33418b9d038ab0ee5be7a22093ef16c4181fbe0ea86c9018a",
+    "transformation": "aggregate only; sample identifiers removed; erratum retained",
+    "staging_sha256": "323526e57482746b2ade104d5e9ccac802346033f8bcd259d46c10e151d7c981"
+  },
+  {
+    "path": "experiments/lightweight/reference/lfm25_architecture_qad_20260907/scripts/run_generation.py",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_architecture_qad_20260907/scripts/run_generation.py",
+    "source_sha256": "29ec12a61cf3eefa2884b3654c661ec06bda99a4d3d17ae58bbed01087bba85f",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "c3cacc5aafa964a10bc2caba6415f2d968d0cccbc81fc153000b156baab1aca7"
+  },
+  {
+    "path": "experiments/lightweight/reference/lfm25_architecture_qad_20260907/scripts/run_editorial.py",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_architecture_qad_20260907/scripts/run_editorial.py",
+    "source_sha256": "9b23857bb102837b1d8b12daee776df4b64f88952f1b3998fc56fdab2b3b7493",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "d89d06e80cbd6e31ebbafdeb89d68d37d328c32491b1a0a70a7c243de47a3f33"
+  },
+  {
+    "path": "experiments/lightweight/reference/lfm25_architecture_qad_20260907/scripts/aggregate.py",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_architecture_qad_20260907/scripts/aggregate.py",
+    "source_sha256": "72f563a59d658706ff7c2b05b50413322dd0fb5dfd754f6d464e6f885d28f153",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "2b6c96f923bd8da90500e48ba88813b8d2a74585233946b235a703444e8a353c"
+  },
+  {
+    "path": "experiments/lightweight/reference/lfm25_architecture_qad_20260907/scripts/common.py",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_architecture_qad_20260907/scripts/common.py",
+    "source_sha256": "b531a07c79417d6664cf94c7d677aa383a5be936930bdd24b536a753a3797723",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "e491f3cfb7a5fdf3a8352c466060ffe5207d18001c0f78aec34692cd933bc0f7"
+  },
+  {
+    "path": "experiments/lightweight/reference/lfm25_closed_loop_independent_audit_20260907/scripts/anchor_audit.py",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_closed_loop_independent_audit_20260907/scripts/anchor_audit.py",
+    "source_sha256": "9cbda076dd2ba1a93402922adf5ac6166c46bd4737b48fab6d6fe4d8148c28f3",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "1db708673bb2d3a77fada41befff340e0a9cc869fee9fd71b512c51bbc679301"
+  },
+  {
+    "path": "experiments/lightweight/reference/lfm25_closed_loop_independent_audit_20260907/scripts/safe_json.py",
+    "source_root": "lightweight_lab",
+    "source_path": "lfm25_closed_loop_independent_audit_20260907/scripts/safe_json.py",
+    "source_sha256": "c01d2c72a04fcdbbfdadf1000e7ee011b7952c397a82cce262e02cfb4fd6f2c1",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "2e92ace31a747089ceb3fd4604e99a2bca7c8410dc50fce61955a4f28ef4efe8"
+  },
+  {
+    "path": "experiments/lightweight/reference/same_source_system_q4_q6_q8_20260907/round2_judge/run_round2.py",
+    "source_root": "lightweight_lab",
+    "source_path": "same_source_system_q4_q6_q8_20260907/round2_judge/run_round2.py",
+    "source_sha256": "8ac46ca5296fb3a27a8b26b61b508fb653ea46c3423b49825eb7c4142ace6b39",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "026926f82534811b65da3a81ece3add8fb4914f827335a0477ee144e0dbd8122"
+  },
+  {
+    "path": "src/task011d/silver_production_lean_v2.py",
+    "source_root": "project",
+    "source_path": "src/task011d/silver_production_lean_v2.py",
+    "source_sha256": "a91a6068c80bc3fdd10d91ef1aaf3d85317677755846b584efbbf21a7eb47b75",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "8fdad268093fa8fc2931407447282bd8d68580f8e34a0a33639e2ea41e73d54b"
+  },
+  {
+    "path": "src/task011d/autonomous_sft.py",
+    "source_root": "project",
+    "source_path": "src/task011d/autonomous_sft.py",
+    "source_sha256": "f960543c3f4b84664ba6465664d235f2f2a68736a075ae88711c5117887e4c6e",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "f55c6a8e45a24f713e859ec0a583950d0a36f8eadfd060297bc748fb734e5a51"
+  },
+  {
+    "path": "src/task011d/event_group_split.py",
+    "source_root": "project",
+    "source_path": "src/task011d/event_group_split.py",
+    "source_sha256": "2591e82cbb6dc8fd8ea0b4f94485730db86bf5afc884f0882e6a7ec427ca2138",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "a0671b51ba64a1402237a2a9d9f5a6df59631d266b8071314cb29f646279a5bb"
+  },
+  {
+    "path": "src/dataset/event_features.py",
+    "source_root": "project",
+    "source_path": "src/dataset/event_features.py",
+    "source_sha256": "db87600ad9e0b4db300aa5e2a9215c7abfbdedd38eaec978098e4ab8c641eb56",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "94b0df41007ceeab7a66b6fa8f9fab262a260db462c51a492686f02b6455ca35"
+  },
+  {
+    "path": "src/task011d/protection.py",
+    "source_root": "project",
+    "source_path": "src/task011d/protection.py",
+    "source_sha256": "8d82ba6f42b7dcc462dd4469b9bf73b275d569ed52c9673e037e3399f75735bf",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "80d1b4a3aa2e03e51c9ac1a0a42bb82ed88f4a42ec70b3feaf593ccd1a1c8d9f"
+  },
+  {
+    "path": "src/task011d/full_silver_production.py",
+    "source_root": "project",
+    "source_path": "src/task011d/full_silver_production.py",
+    "source_sha256": "47704f05d0f91cbff7aa321d04b6005b9f28aa1e035acf4259829c27a8f24381",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "5a864bd4b52032b27d4ab9672618cc90c4ae9a5af2781e01b3e37d95c8d384af"
+  },
+  {
+    "path": "src/task011d/high_semantic_pilot.py",
+    "source_root": "project",
+    "source_path": "src/task011d/high_semantic_pilot.py",
+    "source_sha256": "85f93bbba2212d7ec45538b7fc2dee2e0849931808e86ed8fc76b180c87fb0e3",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "0c2d33af5e135bd7eb91d9a2707162b18970ef29e6aa3fef9ef0806b608e8bd8"
+  },
+  {
+    "path": "src/task011d/reviewer_taxonomy.py",
+    "source_root": "project",
+    "source_path": "src/task011d/reviewer_taxonomy.py",
+    "source_sha256": "b73fe8235dbb656141e8a80f073e7928632fc33de41b42d737fb657f90d8cd01",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "429c209f260dae3b11f3fcb51fd894565fe9f3ee5439acff5867fcfc8bcca584"
+  },
+  {
+    "path": "src/task011d/semantic_provider.py",
+    "source_root": "project",
+    "source_path": "src/task011d/semantic_provider.py",
+    "source_sha256": "98717160852bb94724feaff7706499213fadd3b2a23c3a70c4eb667e8279d849",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "1797673b44e4c628ef0e0b30813a207363bae27590edbd3a4870cb577beb975e"
+  },
+  {
+    "path": "src/task011d/duplicate_governance.py",
+    "source_root": "project",
+    "source_path": "src/task011d/duplicate_governance.py",
+    "source_sha256": "cbd2f21c1843c1d07f0f9494032cfe522906a34db80a5e0e9571bcfc790abc73",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "0c39a3a336c0358564e53d5991bfb126700783a01cfff1c8cc9ccb439e5d13e1"
+  },
+  {
+    "path": "src/task011d/silver_production_pilot.py",
+    "source_root": "project",
+    "source_path": "src/task011d/silver_production_pilot.py",
+    "source_sha256": "c3cd02cfe671d6b2ce29573a361d3e60401ce4e1b176d2d0a9b750c6c7ac95a0",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "0abf5b580f752a081650cc6154b2c29d624fef9d43ce44a1d3122e2f9bea049e"
+  },
+  {
+    "path": "src/task011d/headquarters_quality.py",
+    "source_root": "project",
+    "source_path": "src/task011d/headquarters_quality.py",
+    "source_sha256": "840bc82edf0c2af4d86640ea2c86a787bb2d666404ea93171f214d11db85538e",
+    "transformation": "Selected source with neutral corporate wording and relative filesystem paths; public provider placeholder where applicable. Demo config uses neutral title.",
+    "staging_sha256": "53426c730fe5dbcb974d6736195fdc4fe21cbecb6254b933c64acb2098f76df1"
+  },
+  {
+    "path": "results/stability/diagnostic_aggregates.csv",
+    "source_root": "project",
+    "source_path": "ppt_assets/experiments/repetition/repetition_evidence_summary.csv",
+    "source_sha256": "155370713090536c4d31575a50f9f04c7ec53663f68882e9dd564a0a9b76c61b",
+    "transformation": "Only diagnostic_summary rows and aggregate columns; all source text, case snippets and sample IDs excluded.",
+    "staging_sha256": "b2c580fafcfe15666fd88548b99f48a8ce98668b4a943c493aa482e8f4231597"
+  }
+]

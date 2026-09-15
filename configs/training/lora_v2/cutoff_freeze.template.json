@@ -1,0 +1,17 @@
+{
+  "schema_version": "lora-v2-cutoff-freeze-v1.0.0",
+  "status": "unresolved",
+  "dataset_version": "sft_v2.0.0",
+  "dataset_checksums_sha256": null,
+  "model_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": null,
+  "tokenizer_identifier": "Qwen/Qwen3-4B-Instruct-2507",
+  "tokenizer_revision": null,
+  "chat_template": "qwen3_nothink",
+  "statistics_artifact_sha256": null,
+  "train_total_token_p95": null,
+  "selected_cutoff_len": null,
+  "selection_rule": "2048 if SFT_v2 Train total-token P95 <= 2048, otherwise 4096",
+  "frozen_at": null,
+  "note": "Template only. A final artifact may be created only by freeze-cutoff after verified cloud statistics."
+}

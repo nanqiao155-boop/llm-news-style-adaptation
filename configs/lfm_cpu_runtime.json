@@ -1,0 +1,37 @@
+{
+  "runtime": {
+    "sha256": "81a4b6299521f9a78aa628b47e42ba170392194b4288e7e9486f62b12b9fb886",
+    "version": "b10822 c457e3bf7",
+    "threads": 16,
+    "threads_batch": 16,
+    "context": 4096,
+    "max_tokens": 2048,
+    "gpu_layers": 0,
+    "devices": "none",
+    "op_offload": false,
+    "kv_offload": false,
+    "parallel_models": false,
+    "cache_prompt": false,
+    "cache_ram_mib": 0,
+    "warmup_per_session": 1
+  },
+  "lfm_sampling": {
+    "temperature": 0.1,
+    "top_k": 50,
+    "top_p": 0.95,
+    "min_p": 0.05,
+    "repeat_penalty": 1.05,
+    "repeat_last_n": 64,
+    "seed": 42,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "measurement_notes": [
+    "process start-to-health includes llama empty warmup and OS page-cache effects; not disk cold-load benchmark",
+    "client TTFT is first nonempty content; latency covers request to stream completion",
+    "characters/s uses Python Unicode length / end-to-end latency",
+    "memory sampled every 0.2s; OS peak working set/pagefile also retained",
+    "single run/seed; no thermal or affinity control"
+  ],
+  "cpu_evidence_verified": true
+}

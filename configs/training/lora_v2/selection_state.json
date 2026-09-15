@@ -1,0 +1,13 @@
+{
+  "schema_version": "lora-v2-selection-state-v1.0.0",
+  "CUTOFF_LEN": "unresolved",
+  "LR_STAR": "unresolved",
+  "RANK_STAR": "unresolved",
+  "BATCH_STAR": "unresolved",
+  "MODEL_REVISION": "unresolved",
+  "selection_authority": "user",
+  "training_method": "standard_bf16_lora",
+  "qlora_fallback_authorized": false,
+  "qlora_fallback_evidence": null,
+  "status": "awaiting_cloud_preflight"
+}

@@ -1,0 +1,25 @@
+{
+  "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "learning_rate": 0.0002,
+  "rank": 32,
+  "alpha": 32,
+  "dropout": 0.05,
+  "effective_batch": 8,
+  "micro_batch": 1,
+  "gradient_accumulation": 8,
+  "epochs": 3,
+  "seed": 42,
+  "cutoff_len": 4096,
+  "selected_checkpoint": "checkpoint-117",
+  "effective_adapter_strength": 0.5,
+  "selection_note": "Retrospective free-generation stability selection among multiple checkpoints; not a claim that the original run trained only 0.5 epoch.",
+  "scaling": "Apply 0.50 once to alpha/r scaling; if using alpha=16 deployment config, do not multiply by 0.50 again.",
+  "inference": {
+    "do_sample": false,
+    "max_new_tokens": 2048,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "no_repeat_ngram_size": 0
+  }
+}

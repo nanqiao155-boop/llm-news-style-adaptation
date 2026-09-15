@@ -1,0 +1,11 @@
+{
+  "schema_version": "lora-v2-token-statistics-status-v1.0.0",
+  "dataset_version": "sft_v2.0.0",
+  "split": "train",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "chat_template": "qwen3_nothink",
+  "status": "pending_cloud_tokenizer_run",
+  "recommended_cutoff_len": null,
+  "statistics_fabricated": false,
+  "reason": "The official Qwen3-4B-Instruct-2507 tokenizer has not been verified locally. Run during LoRA PREP-002 with local_files_only after the official revision is pinned."
+}
